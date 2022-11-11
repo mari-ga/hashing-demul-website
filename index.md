@@ -7,11 +7,24 @@ layout: home
 
 This is a pipeline created with Nextflow for Hashing demultiplexing and other similar tools.
 
+## Installation
+1. Install Nextflow:
+    * if you already have conda: `<conda install -c bioconda nextflow>`
+    * you can also install it using: `<curl -s https://get.nextflow.io | bash >`
+
+2. Go to the project's repository: [Hashing Demultiplexing - repository](https://github.com/mari-ga/demultiplex-pipeline) and clone the project.
+
+3. . Go to the folder where the project is stored and run `<nextflow run main.nf>`
+
+
+
+
+
+
+
+
+
 
 
 [Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
 [README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
