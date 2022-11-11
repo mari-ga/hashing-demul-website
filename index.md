@@ -1,5 +1,5 @@
 ---
-title: Hashing Demultiplexing
+title: Home
 layout: home
 ---
 
@@ -8,20 +8,6 @@ layout: home
 This is a pipeline created with Nextflow for Hashing demultiplexing and other similar tools.
 
 
-More specifically, the created site:
-
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
-
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
-
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
-
-To get started with creating a site, just click "[use this template]"!
-
-----
-
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
 
 [Just the Docs]: https://just-the-docs.github.io/just-the-docs/
 [GitHub Pages]: https://docs.github.com/en/pages
