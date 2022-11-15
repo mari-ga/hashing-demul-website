@@ -30,7 +30,7 @@ HTODemux is a tool for Hashing Demultiplexing created by Seurat. More informatio
 
 | Parameter   | Description| Example |
 |:-------------|:------------------|:------|
-| quantile | path to filtered hto matrix   | --quantile_hto 0.99  |
+| quantile | quantile for classification  | --quantile_hto 0.99  |
 | kfunc  | clustering function  | --kfunc "clara" |
 | nstarts      | nstarts value for k-means clustering | --nstarts 100 |
 | nsamples  | Number of samples to be drawn from the dataset used for clustering for kfunc clara | --nsamples 100  |
