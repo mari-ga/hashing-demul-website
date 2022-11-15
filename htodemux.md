@@ -19,9 +19,19 @@ HTODemux is a tool for Hashing Demultiplexing created by Seurat. More informatio
 |:-------------|:------------------|:------|
 | umi  | path to filtered rna matrix | --umi /"path/rna_filtered/"  |
 | hto_matrix | path to filtered hto matrix   | --umi "/path/hto_filtered/"  |
-| sel_method  | How to choose top variable features      | --sel_method "mean.var.plot"  |
+| selection_method  | How to choose top variable features      | --selection_method "mean.var.plot"  |
 | ndelim      | delimiter from the cell's column nam | --ndelim "_"  |
-| n_features  | Number of features to be used when finding variable features | --n_features 2000  |
+| number_features  | Number of features to be used when finding variable features | --number_features 2000  |
 | assay       | Choose assay between RNA or HTO | --assay "HTO" |
 | margin      | Margin for normalisation | --margin 2  |
 | norm_method | Normalisation method | --norm_method "CLR" |
+
+## Parameters - Demultiplexing
+
+| Parameter   | Description| Example |
+|:-------------|:------------------|:------|
+| quantile | path to filtered hto matrix   | --quantile_hto 0.99  |
+| kfunc  | clustering function  | --kfunc "clara" |
+| nstarts      | nstarts value for k-means clustering | --nstarts 100 |
+| nsamples  | Number of samples to be drawn from the dataset used for clustering for kfunc clara | --nsamples 100  |
+| init       | Initial number of clusters for hashtags | --init "NULL" |
