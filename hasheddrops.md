@@ -9,7 +9,7 @@ nav_order: 2
 Hashed Drops is a demultiplexing tool part of the library Droplet Utils. More information can be found at:
 {: .note-title }
 > {: .opaque }
-> DemuxEM by Pegasus:
+> Hashed Drops by Droplet Utils:
 > [Hashed Drops ](https://rdrr.io/github/MarioniLab/DropletUtils/man/hashedDrops.html).
 
 | Parameter   | Description| Example |
@@ -24,3 +24,5 @@ Hashed Drops is a demultiplexing tool part of the library Droplet Utils. More in
 | doubletNmads       | specifies the number of median absolute deviations (MADs) to use to identify doublets. | --doubletNmads 3|
 | confidenMin       |  specifying the minimum threshold on the log-fold change to use to identify singlet | --confidenMin 2|
 | confidentNmads       | specifies the number of MADs to use to identify confidently assigned singlets | --confidentNmads 3|
+
+The description of this parameters were provided by the library. They can also be found in the link above.

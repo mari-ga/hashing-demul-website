@@ -22,3 +22,5 @@ DemuxEM is a tool developped by Pegasus. More information can be found at:
 | tol       | Threshold used for the EM convergence | --tol 1e-6 |
 | n_threads       | Number of threads to use, must be a positive number | --n_threads 1 |
 | min_signal       | Any cell/nucleus with less than min_signal hashtags from the signal will be marked as unknown | --min_signal 10.0|
+
+The description of this parameters were provided by the library. They can also be found in the link above.

@@ -17,7 +17,7 @@ HTODemux is a tool for Hashing Demultiplexing created by Seurat. More informatio
 
 | Parameter   | Description| Example |
 |:-------------|:------------------|:------|
-| umi  | path to filtered rna matrix | --umi /"path/rna_filtered/"  |
+| umi_count  | path to filtered rna matrix | --umi_count /"path/rna_filtered/"  |
 | hto_matrix | path to filtered hto matrix   | --umi "/path/hto_filtered/"  |
 | selection_method  | How to choose top variable features      | --selection_method "mean.var.plot"  |
 | ndelim      | delimiter from the cell's column nam | --ndelim "_"  |
@@ -35,3 +35,4 @@ HTODemux is a tool for Hashing Demultiplexing created by Seurat. More informatio
 | nstarts      | nstarts value for k-means clustering | --nstarts 100 |
 | nsamples  | Number of samples to be drawn from the dataset used for clustering for kfunc clara | --nsamples 100  |
 | init       | Initial number of clusters for hashtags | --init NULL |
+

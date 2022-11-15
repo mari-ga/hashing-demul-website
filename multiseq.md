@@ -9,7 +9,7 @@ nav_order: 2
 MULTI-seq is a tool for Hashing Demultiplexing created by Seurat. More information can be found at:
 {: .note-title }
 > {: .opaque }
-> HTODemux by Seurat:
+> MULTI-seq by Seurat:
 > [MULTI-seq ](https://satijalab.org/seurat/reference/multiseqdemux).
 
 
@@ -37,3 +37,5 @@ These are the same parameters already given for HTODemux, it is not necessary to
 | qrangeFrom  | Lower quantile | --qrangeFrom 0.1  |
 | qrangeTo       | Upper quantile | --qrangeTo 0.9 |
 | qrangeBy       | Step to increase/reduce quantile | --qrangeBy 0.0.05 |
+
+The description of this parameters were provided by the library. They can also be found in the link above.
