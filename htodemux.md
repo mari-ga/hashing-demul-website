@@ -34,4 +34,4 @@ HTODemux is a tool for Hashing Demultiplexing created by Seurat. More informatio
 | kfunc  | clustering function  | --kfunc "clara" |
 | nstarts      | nstarts value for k-means clustering | --nstarts 100 |
 | nsamples  | Number of samples to be drawn from the dataset used for clustering for kfunc clara | --nsamples 100  |
-| init       | Initial number of clusters for hashtags | --init "NULL" |
+| init       | Initial number of clusters for hashtags | --init NULL |
